@@ -1,0 +1,230 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', 'Oswald', sans-serif;
+
+}
+
+.contacet-form {
+     width: 80%;
+     margin: 50px auto;
+     padding-top: 20px;
+     height: 800px;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ccc;
+     opacity: 0.95;
+     border-radius: 15px;
+}
+form{
+     width: 1000px;
+}
+
+body {
+     background-image: url(bg-image.jpg);
+     background-size: cover;
+     width: 100%;
+
+}
+
+div {
+     display: block;
+}
+
+h1 {
+     color: #00539b;
+     text-align: center;
+     padding-bottom: 30px;
+     font-size: 36px;
+     font-weight: 900;
+
+}
+h1::after{
+     content: "";
+     background-color: #ffcc00;
+     position: absolute;
+     display: block;
+     left: 46%;
+     width: 120px;
+     height: 6px;
+     top: 140px;
+    
+}
+
+input[type=text],
+select {
+     width: 100%;
+     display: inline-block;
+     border-radius: 1px solid #ccc;
+     padding: 15px 20px;
+     margin: 2px;
+     line-height: 20px;
+     border: solid 1px #c4c4c4;
+     background-color: #ffffff;
+}
+
+input:focus{
+
+     border-color: 1px #00a94f;
+     width: 100%;
+     display: inline-block;
+     border-radius: 1px solid #ccc;
+     padding: 15px 20px;
+     margin: 2px;
+     line-height: 20px;
+     
+
+}
+
+
+input[type=email],
+select {
+     width: 100%;
+     display: inline-block;
+     border-radius: 1px solid #ccc;
+     padding: 15px 20px;
+     margin: 2px;
+    
+}
+
+input[type=date],
+select {
+     width: 100%;
+     display: inline-block;
+     border-radius: 1px solid #ccc;
+     padding: 15px 20px;
+     margin: 2px;
+
+}
+
+input[type=number],
+select {
+     width: 100%;
+     display: inline-block;
+     border-radius: 1px solid #ccc;
+     padding: 15px 20px;
+
+}
+
+input[type=submit] {
+     width: 100%;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+
+}
+
+input[type=button] {
+     width: 40%;
+     border: none;
+     border-radius: 20px;
+     cursor: pointer;
+     background-color: #00539b;
+     color: #ffffff;
+     display: inline-block;
+     padding: 12px 20px;
+
+}
+input[type=button]:hover {
+     width: 40%;
+     border: none;
+     border-radius: 20px;
+     cursor: pointer;
+     background-color:#00a94f;
+     color: #ffffff;
+     display: inline-block;
+     padding: 12px 20px;
+
+}
+
+.label {
+      font-size: 20px;
+    font-weight: 900;
+    margin: 15px 0 25px;
+    padding: 0 40px 0px px;
+    position: relative;
+    color: #00539b;
+    clear: both;
+}
+.label::after{
+     content: '';
+    width: 56px;
+    height: 4px;
+    background-color: #ffcc00;
+    display: block;
+    position: absolute;
+    bottom: -8px;
+
+}
+p, h1,h2,h3,h4,h5,h6{
+     font-family: 'Lato', 'Oswald', sans-serif;
+}
+
+.row {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    line-height: 1.25;
+     
+}
+
+.row .input-group {
+     flex-basis: 49.2%;
+   
+}
+
+.row3 {
+     display: flex;
+     align-items: center;
+     padding: 2px;
+
+}
+
+.cname{
+
+    line-height:55px;
+}
+
+.row1{
+     width: auto;
+     height: auto;
+     display: inline-block;
+     display: flex;
+}
+.input-group1{
+     width: 655px;
+}
+.input-group2{
+     width: 400px;
+     padding-left: 19px;
+}
+.input-group3{
+     align-items: center;
+     width: 270px;
+     padding-left: 16px;
+     padding-top: 6px;
+ }
+ .text{
+      padding: 20px;
+      text-align: center;
+      color: #00539b;
+      font-size: 25px;
+ }
+ @media screen and (min-width: 320px){
+     .contacet-form {
+          width: 80%;
+          margin: 50px auto;
+          padding-top: 20px;
+          height: 800px;
+          background-size: cover;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #ccc;
+          opacity: 0.95;
+          border-radius: 15px;
+     }
+ }
